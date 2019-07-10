@@ -2,4 +2,98 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q7__inner.gray-box {
+  margin: 0 auto;
+}
+
+.q7__box.text-1 {
+  width: 225px;
+  float: left;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.q7__box.text-1:first-child {
+  margin-left: 0;
+}
+
+
+.q7__inner.table {
+  display: table;
+  table-layout: fixed;
+}
+
+.q7__box.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 225px;
+  padding-right: 50px;
+}
+
+.q7__box.table-cell:last-child {
+  padding-right: 0;
+}
+
+.q7__box__text.text {
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.q7__box.box-inlineblock {
+  display: inline-block;
+  vertical-align: middle;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.q7__box.box-inlineblock:first-child{
+  margin-left: 0;
+}
+
+.q7__inner.flex-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7__box.flex-textbox {
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.q7__inner.is-full.box {
+  width: auto;
+  margin: 0 auto;
+}
+
+.q7__box.fixed-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.q7__box.variable-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 350px;
+  margin-left: -300px;
+  box-sizing: border-box;
+}
+
+.q7__box__text.t {
+  font-size: 16px;
+}
 /* 回答はここに書いてね */

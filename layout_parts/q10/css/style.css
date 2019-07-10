@@ -2,4 +2,33 @@
 
 /* 回答はここに書いてね */
 
+.word-box {
+  position: relative;
+  width: 500px;
+  border-radius: 30px;
+  border: 5px solid #222;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.word-box:before {
+  position: absolute;
+  bottom: -45px;
+  left: 30px;
+  border: 20px solid transparent;
+  border-top-color: #222;
+  content: "";
+}
+
+.word-box:after {
+  position: absolute;
+  bottom: -38px;
+  left: 30px;
+  border: 20px solid transparent;
+  border-top-color: #fff;
+  content: "";
+}
+
 /* 回答はここに書いてね */
