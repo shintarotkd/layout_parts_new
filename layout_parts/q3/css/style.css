@@ -8,34 +8,32 @@
   table-layout: fixed;
 }
 
-.table,td,th {
+.q3-table td, .q3-table th {
   border: 1px solid #dedede;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.table,th {
+.q3-table td, .q3-table th {
   color: #fff;
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
 }
 
-.table,td {
+.q3-table td {
   font-size: 16px;
   line-height:22px;
+  background-color: #fff;
+  color: #000;
 }
 
-tr:nth-child(3) {
+.q3-table tr:nth-child(odd) td {
   background-color: #ecf1f2;
 }
 
-tr:nth-child(5) {
-  background-color: #ecf1f2;
-}
-
-tr:last-child {
+.q3-table tr:last-child {
   border-top: dashed #000 2px;
 }
 

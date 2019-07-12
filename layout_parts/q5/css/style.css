@@ -2,131 +2,86 @@
 
 /* 回答はここに書いてね */
 
-.q5-content {
+.q5-box {
   width: 500px;
   height: 500px;
   background-color: #ecf1f2;
-  margin: 0 auto;
   position: relative;
+  margin: auto;
 }
 
-.box-9 { 
+.cbox { 
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.cbox.box-9 { 
   background-color: #2b69a3;
-  width: 100px;
-  height: 100px;
-  position: fixed; top: 10px; left: 10px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+  position: fixed; 
+  top: 10px; 
+  left: 10px;
 }
 
-.box-1 { 
+.cbox.box-1 { 
   background-color: #ffefd3;
-  width: 100px;
-  height: 100px;
-  position: absolute; top: 40px; left: 200px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+  top: 40px; 
+  left: 200px;
   z-index: auto;
 }
 
-.box-2 { 
-  background-color: #7084de;
-  width: 100px;
-  height: 100px;
-  position: absolute; top: 120px; right: 120px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+.cbox.box-2 { 
+  background-color: #7084de; 
+  top: 120px; 
+  right: 120px;
   z-index: 2;
 }
 
-.box-3 { 
+.cbox.box-3 { 
   background-color: #d0ecea;
-  width: 100px;
-  height: 100px;
-  position: absolute; top: 200px; right: 40px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+  top: 200px; 
+  right: 40px;
   z-index: 3;
 }
 
-.box-4 { 
+.cbox.box-4 { 
   background-color: #8b7a5e;
-  width: 100px;
-  height: 100px;
-  position: absolute; bottom: 120px; right: 120px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+  bottom: 120px; 
+  right: 120px;
   z-index: 4;
 }
 
-.box-5 { 
+.cbox.box-5 { 
   background-color: #9fd6d2;
-  width: 100px;
-  height: 100px;
-  position: absolute; bottom: 40px; left: 200px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+  bottom: 40px; 
+  left: 200px;
   z-index: 5;
 }
 
-.box-6 { 
+.cbox.box-6 { 
   background-color: #fffee4;
-  width: 100px;
-  height: 100px;
-  position: absolute; bottom: 120px; left: 120px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+  bottom: 120px; 
+  left: 120px;
   z-index: 6;
 }
 
-.box-7 { 
+.cbox.box-7 { 
   background-color: #deae70;
-  width: 100px;
-  height: 100px;
-  position: absolute; top: 200px; left:40px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+  top: 200px; left:40px;
   z-index: 7;
 }
 
-.box-8 { 
+.cbox.box-8 { 
   background-color: #de70cf;
-  width: 100px;
-  height: 100px;
-  position: absolute; top: 120px; left: 120px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 100px;
-  font-size: xx-large;
-  font-weight: 600;
+  top: 120px; 
+  left: 120px;
   z-index: 8;
 }
 
-.box-1::after {
+.cbox.box-1::after {
   content: "";
   width: 20px;
   height: 20px;
