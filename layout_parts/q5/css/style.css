@@ -19,69 +19,69 @@
   position: absolute;
 }
 
-.cbox.box-9 { 
+.box-9 { 
   background-color: #2b69a3;
   position: fixed; 
   top: 10px; 
   left: 10px;
 }
 
-.cbox.box-1 { 
+.box-1 { 
   background-color: #ffefd3;
   top: 40px; 
   left: 200px;
   z-index: auto;
 }
 
-.cbox.box-2 { 
+.box-2 { 
   background-color: #7084de; 
   top: 120px; 
   right: 120px;
   z-index: 2;
 }
 
-.cbox.box-3 { 
+.box-3 { 
   background-color: #d0ecea;
   top: 200px; 
   right: 40px;
   z-index: 3;
 }
 
-.cbox.box-4 { 
+.box-4 { 
   background-color: #8b7a5e;
   bottom: 120px; 
   right: 120px;
   z-index: 4;
 }
 
-.cbox.box-5 { 
+.box-5 { 
   background-color: #9fd6d2;
   bottom: 40px; 
   left: 200px;
   z-index: 5;
 }
 
-.cbox.box-6 { 
+.box-6 { 
   background-color: #fffee4;
   bottom: 120px; 
   left: 120px;
   z-index: 6;
 }
 
-.cbox.box-7 { 
+.box-7 { 
   background-color: #deae70;
   top: 200px; left:40px;
   z-index: 7;
 }
 
-.cbox.box-8 { 
+.box-8 { 
   background-color: #de70cf;
   top: 120px; 
   left: 120px;
   z-index: 8;
 }
 
-.cbox.box-1::after {
+.box-1::after {
   content: "";
   width: 20px;
   height: 20px;
